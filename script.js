@@ -54,9 +54,8 @@ function isUserValid(userna, pass) {
 		if (userna == database[i].user &&
 				pass == database[i].password ) {
 					return true;
-				} else return false
-		}
-		//return false;
+				}
+		} return false; // trebuie pus aici si cu else if sau dupa if, fiindca doar asa a al 2lea loop nu iese din fucntie dupa return
 }
 
 function signIn(userna, pass) {
